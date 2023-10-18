@@ -43,7 +43,7 @@ server {
     }
 
     location /redirect_me {
-        return 301 https://Akwesi-bonah/;
+        return 301 https://github.com/Akwesi-bonah;
     }
 
     error_page 404 /404.html;
