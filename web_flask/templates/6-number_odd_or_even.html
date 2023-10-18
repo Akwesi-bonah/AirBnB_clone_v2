@@ -5,7 +5,7 @@
     </HEAD>
     <BODY>
         <H1>
-            {% if num % 2 == 0 %}
+            {% if num is divisibleby(2) %}
                 Number: {{ num }} is even
             {% else %}
                 Number: {{ num }} is odd
